@@ -9,10 +9,19 @@ python-versions = ">=3.7"
 [package.extras]
 widechars = ["wcwidth"]
 
+[[package]]
+name = "wcwidth"
+version = "0.2.6"
+description = "Measures the displayed width of unicode strings in a terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "0f4636e176645f4ea594b21893a5d27f08f9588ab48f3f1421483403a0c3c478"
+content-hash = "3d2c0d04d386ab21cd187a1d227a6b24ed0e466eb4a335bce2db8dc937ee148b"
 
 [metadata.files]
 tabulate = []
+wcwidth = []
